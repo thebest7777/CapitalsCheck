@@ -6,10 +6,10 @@ const app = express();
 const port = 3000;
 let quiz = [];
 const db= new pg.Client({
-  user:process.env.PG_USER,
+  user:"postgres",
   host:process.env.PG_HOST,
-  database:process.env.PG_DATABASE,
-  password:process.env.PG_PASSWORD,
+  database:"world",
+  password:"Renu@123",
   port:process.env.PG_PORT
 });
 db.connect();
