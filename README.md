@@ -1,0 +1,1 @@
+This is a World Capital quiz website. The app works by displaying a country name for which the capital has to be entered. Streak will continue till correct answers are entered otherwise it will prompt the user to restart.
